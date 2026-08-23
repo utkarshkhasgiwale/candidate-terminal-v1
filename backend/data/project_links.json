@@ -1,0 +1,10 @@
+{
+  "ember-studio": {
+    "github": "https://github.com/utkarshkhasgiwale/ember-studio/tree/main/ember-studio",
+    "demo": "https://ember-studio-six.vercel.app/"
+  },
+  "ai-research-report-generator": {
+    "github": "https://github.com/utkarshkhasgiwale/ai-research-reporter",
+    "demo": "https://ai-research-reporter.vercel.app/"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "name": "UTKARSH KHASGIWALE",
+  "tagline": "Front-end focused developer with hands-on experience building responsive, animation-rich web interfaces using React, Tailwind CSS, GSAP, and Vite, alongside a strong foundation in C++, Python, Data Structures & Algorithms, OOP, and MySQL. Comfortable owning a UI end-to-end — from component architecture and state management to motion design and performance — and equally capable contributing to Python-based backend and automation tooling. Looking for an entry-level developer role to build reliable, user-friendly, cross-platform front-end products.",
+  "location": "",
+  "email": "utkarshkhasgiwale16@gmail.com",
+  "phone": "+91 9616052597",
+  "college": "Institute of Technology and Management",
+  "cgpa": "6.31",
+  "about": "Front-end focused developer with hands-on experience building responsive, animation-rich web interfaces using React, Tailwind CSS, GSAP, and Vite, alongside a strong foundation in C++, Python, Data Structures & Algorithms, OOP, and MySQL. Comfortable owning a UI end-to-end — from component architecture and state management to motion design and performance — and equally capable contributing to Python-based backend and automation tooling. Looking for an entry-level developer role to build reliable, user-friendly, cross-platform front-end products.",
+  "skills": {
+    "languages": [
+      "C++",
+      "Python",
+      "JavaScript (ES6+)"
+    ],
+    "frontend": [
+      "HTML5",
+      "CSS3",
+      "React.js",
+      "React Router",
+      "Tailwind CSS",
+      "GSAP",
+      "Responsive / Mobile-first UI",
+      "Vite",
+      "Bootstrap"
+    ],
+    "backend_apis": [
+      "REST API integration",
+      "FastAPI",
+      "MySQL",
+      "database design"
+    ],
+    "generative_ai": [
+      "LangChain",
+      "embedding pipelines",
+      "AI agent design",
+      "prompt engineering"
+    ],
+    "core_cs": [
+      "Data Structures & Algorithms",
+      "Object-Oriented Programming",
+      "DBMS",
+      "Operating Systems",
+      "Computer Networks"
+    ],
+    "tools": [
+      "VS Code",
+      "Git/GitHub",
+      "npm",
+      "Postman",
+      "AWS (Cloud Foundations)"
+    ]
+  },
+  "experience": [],
+  "projects": [
+    {
+      "id": "ember-studio",
+      "name": "Ember Studio",
+      "description": "Architected the front-end component structure of a multi-page agency website, including routing, shared application state, and a reusable navigation system. Built a custom motion and interaction layer with GSAP, including a hand-built animated cursor component, to deliver a refined, production-grade user experience. Defined and implemented a cohesive visual design system on top of Tailwind CSS, balancing aesthetic polish with performance across devices.",
+      "tech": [
+        "React",
+        "Tailwind CSS",
+        "GSAP",
+        "Vite"
+      ],
+      "github": "",
+      "demo": ""
+    },
+    {
+      "id": "ai-research-report-generator",
+      "name": "AI Research Report Generator",
+      "description": "Designed a multi-stage AI agent pipeline that researches a given topic and produces a structured, sourced report with automated quality review. Implemented prompt-engineered chains for report generation and critique, orchestrated through a single state-driven pipeline for reliability and maintainability. Structured the codebase into clear, modular components (agents, tools, pipeline) to support extensibility and future integration.",
+      "tech": [
+        "Python",
+        "LangChain",
+        "FastAPI"
+      ],
+      "github": "",
+      "demo": ""
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in CSE (IoT)",
+      "institution": "Institute of Technology and Management",
+      "duration": "Aug 2023 – Present",
+      "score": "6.31"
+    }
+  ]
+}

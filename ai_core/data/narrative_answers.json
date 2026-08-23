@@ -1,0 +1,100 @@
+{
+  "tell_me_about_yourself": {
+    "answer": "My name is Utkarsh Khasgiwale. I am a 3rd-year B.Tech student in IoT at ITM Universe, Gwalior (Institute of Technology and Management). I enjoy software development, Data Structures & Algorithms, full-stack development, and Generative AI. I like building real-world projects that solve practical problems and continuously improving my technical skills. I am looking for an opportunity where I can learn from experienced engineers, contribute to meaningful projects, and grow as a software developer.",
+    "type": "fixed"
+  },
+
+  "current_location": {
+    "answer": "I currently live in Gwalior, Madhya Pradesh.",
+    "type": "fixed"
+  },
+
+  "hometown": {
+    "answer": "My hometown is Gwalior, Madhya Pradesh.",
+    "type": "fixed"
+  },
+
+  "phone_number": {
+    "answer": "9516052597",
+    "type": "fixed"
+  },
+
+  "email_address": {
+    "answer": "utkarshkhasgiwale16@gmail.com",
+    "type": "fixed"
+  },
+
+  "college": {
+    "answer": "I am pursuing my B.Tech from ITM Universe, Gwalior (Institute of Technology and Management).",
+    "type": "fixed"
+  },
+
+  "current_cgpa": {
+    "answer": "My current CGPA is 6.32.",
+    "type": "fixed"
+  },
+
+  "strengths": {
+    "answer": [
+      "Quick learner",
+      "Problem-solving mindset",
+      "Consistency",
+      "Adaptability",
+      "Teamwork",
+      "Willingness to learn new technologies",
+      "Staying calm under pressure"
+    ],
+    "type": "fixed"
+  },
+
+  "weakness": {
+    "answer": "Sometimes I spend extra time perfecting my work. I am improving this by setting deadlines and focusing on delivering high-quality work on time.",
+    "type": "fixed"
+  },
+
+  "hobbies": {
+    "answer": [
+      "Playing cricket",
+      "Playing video games",
+      "Learning about new technologies and AI",
+      "Solving coding problems",
+      "Watching technology-related content"
+    ],
+    "type": "fixed"
+  },
+
+  "internship": {
+    "answer": "No. I am currently focused on strengthening my skills through projects, DSA, and continuous learning, and I am actively looking for internship and full-time opportunities.",
+    "type": "fixed"
+  },
+
+  "why_should_we_hire_you": {
+    "answer": "I have a strong learning attitude, enjoy solving challenging problems, and adapt quickly to new technologies. I am confident that I can contribute while continuously improving my skills.",
+    "type": "adaptable"
+  },
+
+  "why_do_you_want_to_join_our_company": {
+    "answer": "Your company offers an excellent environment to learn, collaborate with experienced professionals, and work on real-world products. That aligns perfectly with my career goals.",
+    "type": "company_adaptable"
+  },
+
+  "five_year_goal": {
+    "answer": "I see myself as a skilled software engineer who takes ownership of important projects, contributes to impactful products, and mentors junior developers.",
+    "type": "fixed"
+  },
+
+  "willing_to_relocate": {
+    "answer": "Yes. I am open to relocating based on the company's requirements.",
+    "type": "fixed"
+  },
+
+  "handling_pressure": {
+    "answer": "I stay calm, prioritize tasks based on importance, break large problems into smaller parts, and focus on one task at a time.",
+    "type": "fixed"
+  },
+
+  "questions_for_interviewer": {
+    "answer": "Yes. What does success look like in this role during the first six months? What learning opportunities and mentorship programs does the company provide?",
+    "type": "fixed"
+  }
+}
