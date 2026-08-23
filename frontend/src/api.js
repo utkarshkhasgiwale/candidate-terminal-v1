@@ -1,4 +1,4 @@
-const API_BASE = "/api";
+const API_BASE = "https://candidate-terminal-backend.onrender.com";
 
 export async function askBackend(question, history) {
   const response = await fetch(`${API_BASE}/ask`, {
