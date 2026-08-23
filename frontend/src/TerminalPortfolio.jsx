@@ -1623,11 +1623,11 @@ function HistoryLine({
           style={{
             color:
               theme.dim,
-            fontSize: 12,
+            fontSize: 14,
             margin:
               "0 0 8px",
             lineHeight:
-              1.5,
+              1.6,
           }}
         >
           {project.description}
@@ -1785,12 +1785,12 @@ function OutputLine({
           color: typed
             ? theme.text
             : theme.dim,
-          fontSize: 13,
+          fontSize: 15,
           margin: 0,
           whiteSpace:
             "pre-wrap",
           lineHeight:
-            1.6,
+            1.7,
           flex: 1,
         }}
       >
