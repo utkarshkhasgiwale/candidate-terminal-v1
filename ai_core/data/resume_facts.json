@@ -32,6 +32,9 @@
     ],
     "generative_ai": [
       "LangChain",
+      "LangGraph",
+      "RAG",
+      "Qdrant",
       "embedding pipelines",
       "AI agent design",
       "prompt engineering"
@@ -67,16 +70,17 @@
       "demo": ""
     },
     {
-      "id": "ai-research-report-generator",
-      "name": "AI Research Report Generator",
-      "description": "Designed a multi-stage AI agent pipeline that researches a given topic and produces a structured, sourced report with automated quality review. Implemented prompt-engineered chains for report generation and critique, orchestrated through a single state-driven pipeline for reliability and maintainability. Structured the codebase into clear, modular components (agents, tools, pipeline) to support extensibility and future integration.",
+      "id": "restaurant-ai",
+      "name": "RestaurantAI",
+      "description": "Built a conversational restaurant ordering and kitchen-management agent using LangGraph and FastAPI. Implemented the complete order lifecycle from Take Order → Cook → Serve → Bill → Paid, with per-item cart status and partial success/failure handling. Separated LLM language understanding from deterministic business logic for inventory, pricing, tax, and ETA. Added tiered failure recovery with bounded retries, substitution suggestions, targeted recooking, and human escalation.",
       "tech": [
         "Python",
-        "LangChain",
-        "FastAPI"
+        "LangGraph",
+        "FastAPI",
+        "Anthropic Claude"
       ],
-      "github": "",
-      "demo": ""
+      "github": "https://github.com/utkarshkhasgiwale/Restaurant_AI",
+      "demo": "https://bistro-ai-restaurant.onrender.com/"
     }
   ],
   "education": [
