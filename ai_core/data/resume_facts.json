@@ -33,7 +33,7 @@
     "generative_ai": [
       "LangChain",
       "LangGraph",
-      "RAG",
+      "Retrieval-Augmented Generation (RAG)",
       "Qdrant",
       "embedding pipelines",
       "AI agent design",
@@ -57,29 +57,30 @@
   "experience": [],
   "projects": [
     {
-      "id": "ember-studio",
-      "name": "Ember Studio",
-      "description": "Architected the front-end component structure of a multi-page agency website, including routing, shared application state, and a reusable navigation system. Built a custom motion and interaction layer with GSAP, including a hand-built animated cursor component, to deliver a refined, production-grade user experience. Defined and implemented a cohesive visual design system on top of Tailwind CSS, balancing aesthetic polish with performance across devices.",
+      "id": "revise-ai",
+      "name": "Revise AI",
+      "description": "Built a Retrieval-Augmented Generation system over YouTube DSA lecture playlists that answers user questions with exact source timestamps. Implemented hybrid search combining corpus-wide BM25 keyword search with semantic vector search, using score fusion to rank results. Designed conversation memory to retain context and resolve query references across multiple turns, with a grounding mechanism that refuses to answer when the lectures lack the information. Added an instant timestamp-lookup mode (Show Me Where) that returns exact lecture moments without LLM generation, and auto-indexing to detect and index new lectures automatically.",
       "tech": [
-        "React",
-        "Tailwind CSS",
-        "GSAP",
-        "Vite"
+        "Python",
+        "FastAPI",
+        "Qdrant",
+        "Groq",
+        "Sentence-Transformers"
       ],
-      "github": "",
+      "github": "https://github.com/utkarshkhasgiwale/Revise_AI",
       "demo": ""
     },
     {
       "id": "restaurant-ai",
       "name": "RestaurantAI",
-      "description": "Built a conversational restaurant ordering and kitchen-management agent using LangGraph and FastAPI. Implemented the complete order lifecycle from Take Order → Cook → Serve → Bill → Paid, with per-item cart status and partial success/failure handling. Separated LLM language understanding from deterministic business logic for inventory, pricing, tax, and ETA. Added tiered failure recovery with bounded retries, substitution suggestions, targeted recooking, and human escalation.",
+      "description": "Architected a production-grade conversational ordering agent as a LangGraph state machine, managing the full order lifecycle (Take Order, Cook, Serve, Bill, Paid) with per-item cart status enabling partial order success and failure handling. Designed a deterministic domain layer separating LLM language understanding from business logic, computing inventory checks, pricing, tax, and ETA entirely in code to eliminate hallucinated menu or billing data. Implemented tiered failure recovery: bounded retries for ambiguous input, automatic substitution suggestions for out-of-menu items, recoverable kitchen-failure handling via targeted recooking, and human escalation for critical incidents. Built and deployed a FastAPI backend with a live web frontend, plus a golden-conversation evaluation suite to validate ordering, substitution, and failure-recovery flows.",
       "tech": [
         "Python",
         "LangGraph",
         "FastAPI",
         "Anthropic Claude"
       ],
-      "github": "https://github.com/utkarshkhasgiwale/Restaurant_AI",
+      "github": "https://github.com/utkarshkhasgiwale/Resturant_AI",
       "demo": "https://bistro-ai-restaurant.onrender.com/"
     }
   ],
@@ -87,7 +88,7 @@
     {
       "degree": "B.Tech in CSE (IoT)",
       "institution": "Institute of Technology and Management",
-      "duration": "Aug 2023 – Present",
+      "duration": "Aug 2023 - Present",
       "score": "6.31"
     }
   ]
